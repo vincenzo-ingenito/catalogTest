@@ -1,13 +1,18 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
    <id value="1"></id>
    <meta>
-      <versionId value="1"></versionId>
-      <lastUpdated value="2023-12-12T17:29:19.483+01:00"></lastUpdated>
-      <source value="#DNSHKWva8pOWSUgV"></source>
+      <versionId value="2"></versionId>
+      <lastUpdated value="2023-12-12T17:29:23.379+01:00"></lastUpdated>
+      <source value="#HvgYM3K3Z6DXwwW9"></source>
       <security>
          <system value="https://www.hl7.org/fhir/R4/v3/ConfidentialityClassification/vs.html"></system>
          <code value="N"></code>
          <display value="Normal"></display>
+      </security>
+      <security>
+         <system value="https://www.hl7.org/fhir/R4/v3/ConfidentialityClassification/vs.html"></system>
+         <code value="R"></code>
+         <display value="Restricted"></display>
       </security>
       <tag>
          <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
