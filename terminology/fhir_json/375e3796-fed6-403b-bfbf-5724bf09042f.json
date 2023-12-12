@@ -2,13 +2,17 @@
   "resourceType": "CodeSystem",
   "id": "1",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2023-12-12T17:29:19.483+01:00",
-    "source": "#DNSHKWva8pOWSUgV",
+    "versionId": "2",
+    "lastUpdated": "2023-12-12T17:29:23.379+01:00",
+    "source": "#HvgYM3K3Z6DXwwW9",
     "security": [ {
       "system": "https://www.hl7.org/fhir/R4/v3/ConfidentialityClassification/vs.html",
       "code": "N",
       "display": "Normal"
+    }, {
+      "system": "https://www.hl7.org/fhir/R4/v3/ConfidentialityClassification/vs.html",
+      "code": "R",
+      "display": "Restricted"
     } ],
     "tag": [ {
       "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
