@@ -7,7 +7,7 @@ URL = http://example.com/fakeSnomed
 VERSION = 1.0.0
 NAME = Fake SNOMED
 CONTENT = Fragment
-SECURITY = N
+SECURITY = N,R
 -----END METADATA-----
 
 CODE|DISPLAY|ISA
