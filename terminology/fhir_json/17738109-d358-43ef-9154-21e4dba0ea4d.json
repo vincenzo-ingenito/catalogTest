@@ -1,0 +1,29 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "9",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2023-12-12T23:11:53.908+01:00",
+    "source": "#HdWI8pjX2oTotTgf",
+    "security": [ {
+      "system": "https://www.hl7.org/fhir/R4/v3/ConfidentialityClassification/vs.html",
+      "code": "N",
+      "display": "Normal"
+    } ],
+    "tag": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code": "SUBSETTED",
+      "display": "Resource encoded in summary mode"
+    } ]
+  },
+  "url": "http://example.com/fakeSnomed",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:17738109-d358-43ef-9154-21e4dba0ea4d"
+  } ],
+  "version": "1.0.0",
+  "name": "Fake SNOMED",
+  "status": "draft",
+  "copyright": "© 2023 Fake Company. All rights reserved.",
+  "content": "fragment"
+}
