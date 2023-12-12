@@ -1,0 +1,13 @@
+-----BEGIN METADATA-----
+© 2023 Fake Company. All rights reserved.
+RESOURCE ID= 7
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:74f1c924-b8eb-4591-95ef-8004b27d1619
+URL = http://example.com/fakeSnomed
+VERSION = 1.0.0
+NAME = Fake SNOMED
+CONTENT = Fragment
+SECURITY = N
+-----END METADATA-----
+
+CODE|DISPLAY|ISA
