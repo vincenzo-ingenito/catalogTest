@@ -1,0 +1,166 @@
+-----BEGIN METADATA-----
+RESOURCE ID= = 46
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.1063
+URL = http://terminology.hl7.org/CodeSystem/v3-ObservationValue
+VERSION = 2.1.0
+NAME = ObservationValue
+-----END METADATA-----
+
+[ {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_ActCoverageAssessmentObservationValue",
+  "description" : "ActCoverageAssessmentObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_AllergyTestValue",
+  "description" : "AllergyTestValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_CompositeMeasureScoring",
+  "description" : "CompositeMeasureScoring",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_CoverageLimitObservationValue",
+  "description" : "CoverageLimitObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_CriticalityObservationValue",
+  "description" : "CriticalityObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_EmploymentStatus",
+  "description" : "_EmploymentStatus",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_GeneticObservationValue",
+  "description" : "GeneticObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_MeasurementImprovementNotation",
+  "description" : "Measurement Improvement Notation",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_ObservationMeasureScoring",
+  "description" : "ObservationMeasureScoring",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_ObservationMeasureType",
+  "description" : "ObservationMeasureType",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_ObservationPopulationInclusion",
+  "description" : "ObservationPopulationInclusion",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_PartialCompletionScale",
+  "description" : "PartialCompletionScale",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_SecurityObservationValue",
+  "description" : "SecurityObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_SeverityObservation",
+  "description" : "SeverityObservation",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_SubjectBodyPosition",
+  "description" : "_SubjectBodyPosition",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_VerificationOutcomeValue",
+  "description" : "verification outcome",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_WorkSchedule",
+  "description" : "_WorkSchedule",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_AnnotationValue",
+  "description" : "AnnotationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_CommonClinicalObservationValue",
+  "description" : "common clinical observation",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_CoverageChemicalDependencyValue",
+  "description" : "CoverageChemicalDependencyValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_IndividualCaseSafetyReportValueDomains",
+  "description" : "Individual Case Safety Report Value Domains",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_InjuryObservationValue",
+  "description" : "InjuryObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_IntoleranceValue",
+  "description" : "IntoleranceValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_IssueTriggerObservationValue",
+  "description" : "IssueTriggerObservationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_OtherIndicationValue",
+  "description" : "OtherIndicationValue",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.1063",
+  "version" : "2.1.0",
+  "code" : "_IndicationValue",
+  "description" : "IndicationValue",
+  "deleted" : false
+} ]
