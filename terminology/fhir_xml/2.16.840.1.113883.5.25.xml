@@ -1,0 +1,467 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="48"></id>
+   <meta>
+      <versionId value="1"></versionId>
+      <lastUpdated value="2023-12-20T15:14:53.300+01:00"></lastUpdated>
+      <source value="#mz5HPuMwXo7uAFrG"></source>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+   </meta>
+   <language value="en"></language>
+   <url value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.5.25"></value>
+   </identifier>
+   <version value="2.2.0"></version>
+   <name value="Confidentiality"></name>
+   <title value="Confidentiality"></title>
+   <status value="active"></status>
+   <date value="2019-12-15"></date>
+   <publisher value="Health Level 7"></publisher>
+   <contact>
+      <name value="Health Level Seven"></name>
+   </contact>
+   <description value="A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain &quot;Confidentiality&quot;."></description>
+   <caseSensitive value="true"></caseSensitive>
+   <hierarchyMeaning value="is-a"></hierarchyMeaning>
+   <content value="complete"></content>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Specializes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Generalizes"></valueString>
+      </extension>
+      <code value="Specializes"></code>
+      <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Generalizes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Specializes"></valueString>
+      </extension>
+      <code value="Generalizes"></code>
+      <description value="Inverse of Specializes.  Only included as a derived relationship."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <code value="internalId"></code>
+      <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"></uri>
+      <description value="The internal identifier for the concept in the HL7 Access database repository."></description>
+      <type value="code"></type>
+   </property>
+   <property>
+      <code value="status"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#status"></uri>
+      <description value="A property that indicates the status of the concept. One of active, experimental, deprecated, or retired."></description>
+      <type value="code"></type>
+   </property>
+   <property>
+      <code value="deprecationDate"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"></uri>
+      <description value="The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged."></description>
+      <type value="dateTime"></type>
+   </property>
+   <property>
+      <code value="notSelectable"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#notSelectable"></uri>
+      <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"></description>
+      <type value="boolean"></type>
+   </property>
+   <concept>
+      <code value="_Confidentiality"></code>
+      <display value="Confidentiality"></display>
+      <definition value="A specializable code and its leaf codes used in Confidentiality value sets to value the Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain &quot;Confidentiality&quot;."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="23320"></valueCode>
+      </property>
+      <concept>
+         <code value="L"></code>
+         <display value="low"></display>
+         <definition value="Privacy metadata indicating that a low level of protection is required to safeguard personal and healthcare information, which has been altered in such a way as to minimize the need for confidentiality protections with some residual risks associated with re-linking. The risk of harm to an individual's reputation and sense of privacy if disclosed without authorization is considered negligible, and mitigations are in place to address reidentification risk.
+
+*Usage Note:* 
+
+The level of protection afforded anonymized and pseudonymized, and non-personally identifiable information (e.g., a limited data set) is dictated by privacy policies and data use agreements intended to engender trust that health information can be used and disclosed with little or no risk of re-identification.
+
+**Example:** Personal and healthcare information, which excludes 16 designated categories of direct identifiers in a HIPAA Limited Data Set. This information may be disclosed by HIPAA Covered Entities without patient authorization for a research, public health, and operations purposes if conditions are met, which includes obtaining a signed data use agreement from the recipient. See 45 CFR Section 164.514.
+
+This metadata indicates that the receiver may have an obligation to comply with a data use agreement with the discloser. The discloser may have obligations to comply with policies dictating the methods for de-identification.
+
+Confidentiality code total order hierarchy: Low (L) is less protective than *V, R, N,* and *M*, and subsumes *U*."></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10234"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="M"></code>
+         <display value="moderate"></display>
+         <definition value="Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.
+
+*Usage Note:* The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.
+
+Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. &quot;Moderate&quot; confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.
+
+Confidentiality code total order hierarchy: Moderate (M) is less protective than *V, R, and N*, and subsumes all other protection levels (i.e., *L* and *U*).
+
+**Examples:** Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="23322"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="N"></code>
+         <display value="normal"></display>
+         <definition value="Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a considerable risk of harm to an individual's reputation and sense of privacy.
+
+*Usage Note:* The level of protection afforded normatively confidential information is dictated by the prevailing normative privacy policies, which are intended to engender patient trust in their healthcare providers.
+
+Privacy policies mandating normative levels of protection, which preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).
+
+Confidentiality code total order hierarchy: Normal (N) is less protective than *V* and *R*, and subsumes all other protection levels (i.e., *M, L, and U*).
+
+**Map:**Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care when purpose of use is treatment: Default for normal clinical care access (i.e., most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.
+
+**Examples:** 
+
+n the US, this includes what HIPAA identifies as protected health information (PHI) under 45 CFR Section 160.103."></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10230"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="R"></code>
+         <display value="restricted"></display>
+         <definition value="Privacy metadata indicating the level of protection required to safeguard potentially stigmatizing information, which if disclosed without authorization, would present a high risk of harm to an individual's reputation and sense of privacy.
+
+*Usage Note:* The level of protection afforded restricted confidential information is dictated by specially protective organizational or jurisdictional privacy policies, including at an authorized individualâ€™s request, intended to engender patient trust in providers of sensitive services.
+
+Privacy policies mandating additional levels of protection by restricting information access preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).
+
+Confidentiality code total order hierarchy: Restricted (R) is less protective than *V*, and subsumes all other protection levels (i.e., *N, M, L, and U*).
+
+**Examples:** 
+
+Includes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patientâ€™s standing as an employee or a celebrity. May be used to indicate proprietary or classified information that is not related to an individual (e.g., secret ingredients in a therapeutic substance; or the name of a manufacturer)."></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10232"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="U"></code>
+         <display value="unrestricted"></display>
+         <definition value="Privacy metadata indicating that no level of protection is required to safeguard personal and healthcare information that has been disclosed by an authorized individual without restrictions on its use.
+
+**Examples:** Includes publicly available information e.g., business name, phone, email and physical address.
+
+*Usage Note:* The authorization to collect, access, use, and disclose this information may be stipulated in a contract of adhesion by a data user (e.g., via terms of service or data user privacy policies) in exchange for the data subject's use of a service.
+
+This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.
+
+This metadata indicates that the receiver has no obligation to consider privacy policies other than its own when making access control decisions.
+
+Confidentiality code total order hierarchy: Unrestricted (U) is less protective than *V, R, N, M,* and *L*, and is the lowest protection levels."></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="23321"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="V"></code>
+         <display value="very restricted"></display>
+         <definition value="Privacy metadata indicating the level of protection required under atypical cicumstances to safeguard potentially damaging or harmful information, which if disclosed without authorization, would (1) present an extremely high risk of harm to an individual's reputation, sense of privacy, and possibly safety; or (2) impact an individual's or organization's legal matters.
+
+*Usage Note:* The level of protection afforded very restricted confidential information is dictated by specially protective privacy or legal policies intended to ensure that under atypical circumstances additional protections limit access to only those with a high 'need to know' and the information is kept in highest confidence..
+
+Privacy and legal policies mandating the highest level of protection by stringently restricting information access, preempt less protective privacy policies when the information is used in the delivery and management of healthcare including legal proceedings related to healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment but only under limited circumstances).
+
+Confidentiality code total order hierarchy: Very Restricted (V) is the highest protection level and subsumes all other protection levels s (i.e., *R, N, M, L, and UI*).
+
+**Examples:** 
+
+Includes information about a victim of abuse, patient requested information sensitivity, and taboo subjects relating to health status that must be discussed with the patient by an attending provider before sharing with the patient. May also include information held under a legal hold or attorney-client privilege."></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="14799"></valueCode>
+         </property>
+      </concept>
+   </concept>
+   <concept>
+      <code value="_ConfidentialityByAccessKind"></code>
+      <display value="ConfidentialityByAccessKind"></display>
+      <definition value="**Description:** By accessing subject / role and relationship based rights (These concepts are mutually exclusive, one and only one is required for a valid confidentiality coding.)
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+      <property>
+         <code value="notSelectable"></code>
+         <valueBoolean value="true"></valueBoolean>
+      </property>
+      <property>
+         <code value="status"></code>
+         <valueCode value="retired"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="21049"></valueCode>
+      </property>
+      <concept>
+         <code value="B"></code>
+         <display value="business"></display>
+         <definition value="**Description:** Since the service class can represent knowledge structures that may be considered a trade or business secret, there is sometimes (though rarely) the need to flag those items as of business level confidentiality. However, no patient related information may ever be of this confidentiality level.
+
+*Deprecation Comment:* Replced by ActCode.B"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10235"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="D"></code>
+         <display value="clinician"></display>
+         <definition value="**Description:** Only clinicians may see this item, billing and administration persons can not access this item without special permission.
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10231"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="I"></code>
+         <display value="individual"></display>
+         <definition value="**Description:** Access only to individual persons who are mentioned explicitly as actors of this service and whose actor type warrants that access (cf. to actor type code).
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10233"></valueCode>
+         </property>
+      </concept>
+   </concept>
+   <concept>
+      <code value="_ConfidentialityByInfoType"></code>
+      <display value="ConfidentialityByInfoType"></display>
+      <definition value="**Description:** By information type, only for service catalog entries (multiples allowed). Not to be used with actual patient data!
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+      <property>
+         <code value="notSelectable"></code>
+         <valueBoolean value="true"></valueBoolean>
+      </property>
+      <property>
+         <code value="status"></code>
+         <valueCode value="retired"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="21050"></valueCode>
+      </property>
+      <concept>
+         <code value="ETH"></code>
+         <display value="substance abuse related"></display>
+         <definition value="**Description:** Alcohol/drug-abuse related item
+
+*Deprecation Comment:*Replced by ActCode.ETH"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10243"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="HIV"></code>
+         <display value="HIV related"></display>
+         <definition value="**Description:** HIV and AIDS related item
+
+*Deprecation Comment:*Replced by ActCode.HIV"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10241"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="PSY"></code>
+         <display value="psychiatry relate"></display>
+         <definition value="**Description:** Psychiatry related item
+
+*Deprecation Comment:*Replced by ActCode.PSY"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10242"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="SDV"></code>
+         <display value="sexual and domestic violence related"></display>
+         <definition value="**Description:** Sexual assault / domestic violence related item
+
+*Deprecation Comment:*Replced by ActCode.SDV"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10244"></valueCode>
+         </property>
+      </concept>
+   </concept>
+   <concept>
+      <code value="_ConfidentialityModifiers"></code>
+      <display value="ConfidentialityModifiers"></display>
+      <definition value="**Description:** Modifiers of role based access rights (multiple allowed)
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+      <property>
+         <code value="notSelectable"></code>
+         <valueBoolean value="true"></valueBoolean>
+      </property>
+      <property>
+         <code value="status"></code>
+         <valueCode value="retired"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="21051"></valueCode>
+      </property>
+      <concept>
+         <code value="C"></code>
+         <display value="celebrity"></display>
+         <definition value="**Description:** Celebrities are people of public interest (VIP) including employees, whose information require special protection.
+
+*Deprecation Comment:*Replced by ActCode.CEL"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10239"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="S"></code>
+         <display value="sensitive"></display>
+         <definition value="**Description:** 
+
+Information for which the patient seeks heightened confidentiality. Sensitive information is not to be shared with family members. Information reported by the patient about family members is sensitive by default. Flag can be set or cleared on patient's request.
+
+*Deprecation Comment:*Deprecated due to updated confidentiality codes under ActCode"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10237"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="T"></code>
+         <display value="taboo"></display>
+         <definition value="**Description:** Information not to be disclosed or discussed with patient except through physician assigned to patient in this case. This is usually a temporary constraint only, example use is a new fatal diagnosis or finding, such as malignancy or HIV.
+
+*Deprecation Note:*Replced by ActCode.TBOO"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="retired"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="10238"></valueCode>
+         </property>
+      </concept>
+   </concept>
+</CodeSystem>
