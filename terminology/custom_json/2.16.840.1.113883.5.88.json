@@ -1,0 +1,124 @@
+-----BEGIN METADATA-----
+RESOURCE ID= = 42
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.88
+URL = http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction
+VERSION = 2.0.0
+NAME = ParticipationFunction
+-----END METADATA-----
+
+[ {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "_AuthorizedParticipationFunction",
+  "description" : "AuthorizedParticipationFunction",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "_CoverageParticipationFunction",
+  "description" : "CoverageParticipationFunction",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "ADMPHYS",
+  "description" : "admitting physician",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "ANEST",
+  "description" : "anesthesist",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "ANRS",
+  "description" : "anesthesia nurse",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "ASSEMBLER",
+  "description" : "assembly software",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "ATTPHYS",
+  "description" : "attending physician",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "COMPOSER",
+  "description" : "composer software",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "DISPHYS",
+  "description" : "discharging physician",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "FASST",
+  "description" : "first assistant surgeon",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "MDWF",
+  "description" : "midwife",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "NASST",
+  "description" : "nurse assistant",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "PCP",
+  "description" : "primary care physician",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "PRISURG",
+  "description" : "primary surgeon",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "REVIEWER",
+  "description" : "reviewer",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "RNDPHYS",
+  "description" : "rounding physician",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "SASST",
+  "description" : "second assistant surgeon",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "SNRS",
+  "description" : "scrub nurse",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.88",
+  "version" : "2.0.0",
+  "code" : "TASST",
+  "description" : "third assistant",
+  "deleted" : false
+} ]
