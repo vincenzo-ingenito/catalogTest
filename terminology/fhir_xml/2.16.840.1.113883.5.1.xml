@@ -1,0 +1,136 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="57"></id>
+   <meta>
+      <versionId value="1"></versionId>
+      <lastUpdated value="2023-12-20T15:16:32.037+01:00"></lastUpdated>
+      <source value="#OCo5Vooo6EB8cZ4j"></source>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+   </meta>
+   <language value="en"></language>
+   <url value="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.5.1"></value>
+   </identifier>
+   <version value="2.1.0"></version>
+   <name value="AdministrativeGender"></name>
+   <title value="AdministrativeGender"></title>
+   <status value="active"></status>
+   <date value="2019-03-20"></date>
+   <publisher value="Health Level 7"></publisher>
+   <contact>
+      <name value="Health Level Seven"></name>
+   </contact>
+   <description value="The gender of a person used for adminstrative purposes (as opposed to clinical gender)"></description>
+   <caseSensitive value="true"></caseSensitive>
+   <hierarchyMeaning value="is-a"></hierarchyMeaning>
+   <content value="fragment"></content>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Specializes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Generalizes"></valueString>
+      </extension>
+      <code value="Specializes"></code>
+      <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Generalizes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Specializes"></valueString>
+      </extension>
+      <code value="Generalizes"></code>
+      <description value="Inverse of Specializes.  Only included as a derived relationship."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <code value="internalId"></code>
+      <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"></uri>
+      <description value="The internal identifier for the concept in the HL7 Access database repository."></description>
+      <type value="code"></type>
+   </property>
+   <property>
+      <code value="status"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#status"></uri>
+      <description value="Designation of a concept's state. Normally is not populated unless the state is retired."></description>
+      <type value="code"></type>
+   </property>
+   <concept>
+      <code value="F"></code>
+      <display value="Female"></display>
+      <definition value="Female"></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10174"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="M"></code>
+      <display value="Male"></display>
+      <definition value="Male"></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10173"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="UN"></code>
+      <display value="Undifferentiated"></display>
+      <definition value="En: The gender of a person could not be uniquely defined as male or female, such as intersex. Nl: Het geslacht van een persoon kan niet uniek worden gedefinieerd als man of vrouw, zoals een intersekse-conditie.
+
+*Open Issue:* This is a short-term stopgap solution to the definition issue, full solutions are being worked out by the Gender Harmony project launched in 2019."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="17718"></valueCode>
+      </property>
+   </concept>
+</CodeSystem>
