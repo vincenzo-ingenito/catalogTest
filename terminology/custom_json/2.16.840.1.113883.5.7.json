@@ -1,0 +1,88 @@
+-----BEGIN METADATA-----
+RESOURCE ID= = 50
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.7
+URL = http://terminology.hl7.org/CodeSystem/v3-ActPriority
+VERSION = 2.1.0
+NAME = ActPriority
+-----END METADATA-----
+
+[ {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "A",
+  "description" : "ASAP",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "CR",
+  "description" : "callback results",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "CS",
+  "description" : "callback for scheduling",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "EL",
+  "description" : "elective",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "EM",
+  "description" : "emergency",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "P",
+  "description" : "preop",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "PRN",
+  "description" : "as needed",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "R",
+  "description" : "routine",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "RR",
+  "description" : "rush reporting",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "S",
+  "description" : "stat",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "T",
+  "description" : "timing critical",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "UD",
+  "description" : "use as directed",
+  "deleted" : false
+}, {
+  "system" : "urn:oid:2.16.840.1.113883.5.7",
+  "version" : "2.1.0",
+  "code" : "UR",
+  "description" : "urgent",
+  "deleted" : false
+} ]
