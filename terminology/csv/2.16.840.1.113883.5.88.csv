@@ -1,0 +1,31 @@
+-----BEGIN METADATA-----
+RESOURCE ID= 42
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.88
+URL = http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction
+VERSION = 2.0.0
+NAME = ParticipationFunction
+CONTENT = Complete
+DATE = Wed Mar 20 00:00:00 CET 2019
+-----END METADATA-----
+
+CODE|DISPLAY|ISA
+_AuthorizedParticipationFunction|AuthorizedParticipationFunction|
+_CoverageParticipationFunction|CoverageParticipationFunction|
+ADMPHYS|admitting physician|
+ANEST|anesthesist|
+ANRS|anesthesia nurse|
+ASSEMBLER|assembly software|
+ATTPHYS|attending physician|
+COMPOSER|composer software|
+DISPHYS|discharging physician|
+FASST|first assistant surgeon|
+MDWF|midwife|
+NASST|nurse assistant|
+PCP|primary care physician|
+PRISURG|primary surgeon|
+REVIEWER|reviewer|
+RNDPHYS|rounding physician|
+SASST|second assistant surgeon|
+SNRS|scrub nurse|
+TASST|third assistant|
