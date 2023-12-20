@@ -1,0 +1,17 @@
+-----BEGIN METADATA-----
+© 2023 Fake Company. All rights reserved.
+RESOURCE ID= = 84
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.6.199
+URL = http://test.info/fs
+VERSION = 1.1
+NAME = TEST CT
+SECURITY = N-----END METADATA-----
+
+[ {
+  "system" : "urn:oid:2.16.840.1.113883.6.199",
+  "version" : "1.1",
+  "code" : "173278008",
+  "description" : "Allotransplantation of tooth (procedure)",
+  "deleted" : false
+} ]
