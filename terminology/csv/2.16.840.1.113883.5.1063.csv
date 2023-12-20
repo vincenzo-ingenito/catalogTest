@@ -1,0 +1,38 @@
+-----BEGIN METADATA-----
+RESOURCE ID= 46
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.1063
+URL = http://terminology.hl7.org/CodeSystem/v3-ObservationValue
+VERSION = 2.1.0
+NAME = ObservationValue
+CONTENT = Complete
+DATE = Thu Dec 10 08:00:00 CET 2020
+-----END METADATA-----
+
+CODE|DISPLAY|ISA
+_ActCoverageAssessmentObservationValue|ActCoverageAssessmentObservationValue|
+_AllergyTestValue|AllergyTestValue|
+_CompositeMeasureScoring|CompositeMeasureScoring|
+_CoverageLimitObservationValue|CoverageLimitObservationValue|
+_CriticalityObservationValue|CriticalityObservationValue|
+_EmploymentStatus|_EmploymentStatus|
+_GeneticObservationValue|GeneticObservationValue|
+_MeasurementImprovementNotation|Measurement Improvement Notation|
+_ObservationMeasureScoring|ObservationMeasureScoring|
+_ObservationMeasureType|ObservationMeasureType|
+_ObservationPopulationInclusion|ObservationPopulationInclusion|
+_PartialCompletionScale|PartialCompletionScale|
+_SecurityObservationValue|SecurityObservationValue|
+_SeverityObservation|SeverityObservation|
+_SubjectBodyPosition|_SubjectBodyPosition|
+_VerificationOutcomeValue|verification outcome|
+_WorkSchedule|_WorkSchedule|
+_AnnotationValue|AnnotationValue|
+_CommonClinicalObservationValue|common clinical observation|
+_CoverageChemicalDependencyValue|CoverageChemicalDependencyValue|
+_IndividualCaseSafetyReportValueDomains|Individual Case Safety Report Value Domains|
+_InjuryObservationValue|InjuryObservationValue|
+_IntoleranceValue|IntoleranceValue|
+_IssueTriggerObservationValue|IssueTriggerObservationValue|
+_OtherIndicationValue|OtherIndicationValue|
+_IndicationValue|IndicationValue|
