@@ -1,0 +1,16 @@
+-----BEGIN METADATA-----
+RESOURCE ID= 48
+OID SYSTEM = urn:ietf:rfc:3986
+OID VALUE = urn:oid:2.16.840.1.113883.5.25
+URL = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+VERSION = 2.2.0
+NAME = Confidentiality
+CONTENT = Complete
+DATE = Sun Dec 15 00:00:00 CET 2019
+-----END METADATA-----
+
+CODE|DISPLAY|ISA
+_Confidentiality|Confidentiality|
+_ConfidentialityByAccessKind|ConfidentialityByAccessKind|
+_ConfidentialityByInfoType|ConfidentialityByInfoType|
+_ConfidentialityModifiers|ConfidentialityModifiers|
