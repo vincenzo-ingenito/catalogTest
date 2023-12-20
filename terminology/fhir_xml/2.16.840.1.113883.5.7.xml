@@ -1,0 +1,290 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="50"></id>
+   <meta>
+      <versionId value="1"></versionId>
+      <lastUpdated value="2023-12-20T15:14:54.088+01:00"></lastUpdated>
+      <source value="#24jNFIbx0zJXKmnw"></source>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+   </meta>
+   <language value="en"></language>
+   <url value="http://terminology.hl7.org/CodeSystem/v3-ActPriority"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.5.7"></value>
+   </identifier>
+   <version value="2.1.0"></version>
+   <name value="ActPriority"></name>
+   <title value="ActPriority"></title>
+   <status value="active"></status>
+   <date value="2019-03-20"></date>
+   <publisher value="Health Level 7"></publisher>
+   <contact>
+      <name value="Health Level Seven"></name>
+   </contact>
+   <description value="A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen."></description>
+   <caseSensitive value="true"></caseSensitive>
+   <hierarchyMeaning value="is-a"></hierarchyMeaning>
+   <content value="complete"></content>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Specializes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Generalizes"></valueString>
+      </extension>
+      <code value="Specializes"></code>
+      <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Generalizes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Specializes"></valueString>
+      </extension>
+      <code value="Generalizes"></code>
+      <description value="Inverse of Specializes.  Only included as a derived relationship."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <code value="internalId"></code>
+      <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"></uri>
+      <description value="The internal identifier for the concept in the HL7 Access database repository."></description>
+      <type value="code"></type>
+   </property>
+   <property>
+      <code value="status"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#status"></uri>
+      <description value="Designation of a concept's state. Normally is not populated unless the state is retired."></description>
+      <type value="code"></type>
+   </property>
+   <concept>
+      <code value="A"></code>
+      <display value="ASAP"></display>
+      <definition value="As soon as possible, next highest priority after stat."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16868"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="CR"></code>
+      <display value="callback results"></display>
+      <definition value="Filler should contact the placer as soon as results are available, even for preliminary results. (Was &quot;C&quot; in HL7 version 2.3's reporting priority.)"></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16876"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="CS"></code>
+      <display value="callback for scheduling"></display>
+      <definition value="Filler should contact the placer (or target) to schedule the service. (Was &quot;C&quot; in HL7 version 2.3's TQ-priority component.)"></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16871"></valueCode>
+      </property>
+      <concept>
+         <code value="CSP"></code>
+         <display value="callback placer for scheduling"></display>
+         <definition value="Filler should contact the placer to schedule the service. (Was &quot;C&quot; in HL7 version 2.3's TQ-priority component.)"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="16872"></valueCode>
+         </property>
+      </concept>
+      <concept>
+         <code value="CSR"></code>
+         <display value="contact recipient for scheduling"></display>
+         <definition value="Filler should contact the service recipient (target) to schedule the service. (Was &quot;C&quot; in HL7 version 2.3's TQ-priority component.)"></definition>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="16873"></valueCode>
+         </property>
+      </concept>
+   </concept>
+   <concept>
+      <code value="EL"></code>
+      <display value="elective"></display>
+      <definition value="Beneficial to the patient but not essential for survival."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="12239"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="EM"></code>
+      <display value="emergency"></display>
+      <definition value="An unforeseen combination of circumstances or the resulting state that calls for immediate action."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="12241"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="P"></code>
+      <display value="preop"></display>
+      <definition value="Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16870"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="PRN"></code>
+      <display value="as needed"></display>
+      <definition value="An &quot;as needed&quot; order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16875"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="R"></code>
+      <display value="routine"></display>
+      <definition value="Routine service, do at usual work hours."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16869"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="RR"></code>
+      <display value="rush reporting"></display>
+      <definition value="A report should be prepared and sent as quickly as possible."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16877"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="S"></code>
+      <display value="stat"></display>
+      <definition value="With highest priority (e.g., emergency)."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16867"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="T"></code>
+      <display value="timing critical"></display>
+      <definition value="It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level)."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="16874"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="UD"></code>
+      <display value="use as directed"></display>
+      <definition value="Drug is to be used as directed by the prescriber."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="20843"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="UR"></code>
+      <display value="urgent"></display>
+      <definition value="Calls for prompt action."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="12240"></valueCode>
+      </property>
+   </concept>
+</CodeSystem>
