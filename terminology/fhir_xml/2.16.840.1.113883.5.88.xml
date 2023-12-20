@@ -1,0 +1,779 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="42"></id>
+   <meta>
+      <versionId value="1"></versionId>
+      <lastUpdated value="2023-12-20T15:14:48.658+01:00"></lastUpdated>
+      <source value="#eyAyFhi0z3E6X7fZ"></source>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+      <tag>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"></system>
+         <code value="SUBSETTED"></code>
+         <display value="Resource encoded in summary mode"></display>
+      </tag>
+   </meta>
+   <language value="en"></language>
+   <url value="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.5.88"></value>
+   </identifier>
+   <version value="2.0.0"></version>
+   <name value="ParticipationFunction"></name>
+   <title value="ParticipationFunction"></title>
+   <status value="active"></status>
+   <date value="2019-03-20"></date>
+   <publisher value="Health Level 7"></publisher>
+   <contact>
+      <name value="Health Level Seven"></name>
+   </contact>
+   <description value="This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE)."></description>
+   <hierarchyMeaning value="is-a"></hierarchyMeaning>
+   <content value="complete"></content>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Specializes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Generalizes"></valueString>
+      </extension>
+      <code value="Specializes"></code>
+      <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry">
+         <valueCode value="antisymmetric"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-transitivity">
+         <valueCode value="transitive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity">
+         <valueCode value="irreflexive"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-isNavigable">
+         <valueBoolean value="true"></valueBoolean>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind">
+         <valueCode value="Generalizes"></valueCode>
+      </extension>
+      <extension url="http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-inverseName">
+         <valueString value="Specializes"></valueString>
+      </extension>
+      <code value="Generalizes"></code>
+      <description value="Inverse of Specializes.  Only included as a derived relationship."></description>
+      <type value="Coding"></type>
+   </property>
+   <property>
+      <code value="internalId"></code>
+      <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"></uri>
+      <description value="The internal identifier for the concept in the HL7 Access database repository."></description>
+      <type value="code"></type>
+   </property>
+   <property>
+      <code value="notSelectable"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#notSelectable"></uri>
+      <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"></description>
+      <type value="boolean"></type>
+   </property>
+   <property>
+      <code value="status"></code>
+      <uri value="http://hl7.org/fhir/concept-properties#status"></uri>
+      <description value="Designation of a concept's state. Normally is not populated unless the state is retired."></description>
+      <type value="code"></type>
+   </property>
+   <concept>
+      <code value="_AuthorizedParticipationFunction"></code>
+      <display value="AuthorizedParticipationFunction"></display>
+      <definition value="This code is used to specify the exact function an actor is authorized to have in a service in all necessary detail."></definition>
+      <property>
+         <code value="notSelectable"></code>
+         <valueBoolean value="true"></valueBoolean>
+      </property>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="22338"></valueCode>
+      </property>
+      <concept>
+         <code value="_AuthorizedReceiverParticipationFunction"></code>
+         <display value="AuthorizedReceiverParticipationFunction"></display>
+         <definition value="This code is used to specify the exact function an actor is authorized to have as a receiver of information that is the subject of a consent directive or consent override."></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22341"></valueCode>
+         </property>
+         <concept>
+            <code value="AUCG"></code>
+            <display value="caregiver information receiver"></display>
+            <definition value="**Description:**Caregiver authorized to receive patient health information."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22900"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="AULR"></code>
+            <display value="legitimate relationship information receiver"></display>
+            <definition value="**Description:**Provider with legitimate relationship authorized to receive patient health information."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22901"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="AUTM"></code>
+            <display value="care team information receiver"></display>
+            <definition value="**Description:**Member of care team authorized to receive patient health information."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22902"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="AUWA"></code>
+            <display value="work area information receiver"></display>
+            <definition value="**Description:**Entities within specified work area authorized to receive patient health information."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22903"></valueCode>
+            </property>
+         </concept>
+      </concept>
+      <concept>
+         <code value="_ConsenterParticipationFunction"></code>
+         <display value="ConsenterParticipationFunction"></display>
+         <definition value="This code is used to specify the exact function an actor is authorized to have in authoring a consent directive."></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22339"></valueCode>
+         </property>
+         <concept>
+            <code value="GRDCON"></code>
+            <display value="legal guardian consent author"></display>
+            <definition value="**Description:**Legal guardian of the subject of consent authorized to author a consent directive for the subject of consent."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22894"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="POACON"></code>
+            <display value="healthcare power of attorney consent author"></display>
+            <definition value="**Description:**Person authorized with healthcare power of attorney to author a consent directive for the subject of consent."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22896"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="PRCON"></code>
+            <display value="personal representative consent author"></display>
+            <definition value="**Description:**Personal representative of the subject of consent authorized to author a consent directive for the subject of consent."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22895"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="PROMSK"></code>
+            <display value="authorized provider masking author"></display>
+            <definition value="**Definition:**Provider authorized to mask information to protect the patient, a third party, or to ensure that the provider has consulted with the patient prior to release of this information."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22897"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="SUBCON"></code>
+            <display value="subject of consent author"></display>
+            <definition value="**Description:**Subject of consent authorized to author a consent directive."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22893"></valueCode>
+            </property>
+         </concept>
+      </concept>
+      <concept>
+         <code value="_OverriderParticipationFunction"></code>
+         <display value="OverriderParticipationFunction"></display>
+         <definition value="This code is used to specify the exact function an actor is authorized to have in authoring a consent override."></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22340"></valueCode>
+         </property>
+         <concept>
+            <code value="AUCOV"></code>
+            <display value="consent overrider"></display>
+            <definition value="**Description:**Entity authorized to override a consent directive."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22898"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="AUEMROV"></code>
+            <display value="emergency overrider"></display>
+            <definition value="**Description:**Entity authorized to override a consent directive or privacy policy in an emergency."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22899"></valueCode>
+            </property>
+         </concept>
+      </concept>
+   </concept>
+   <concept>
+      <code value="_CoverageParticipationFunction"></code>
+      <display value="CoverageParticipationFunction"></display>
+      <definition value="**Definition:** Set of codes indicating the manner in which sponsors, underwriters, and payers participate in a policy or program."></definition>
+      <property>
+         <code value="notSelectable"></code>
+         <valueBoolean value="true"></valueBoolean>
+      </property>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="22222"></valueCode>
+      </property>
+      <concept>
+         <code value="_PayorParticipationFunction"></code>
+         <display value="PayorParticipationFunction"></display>
+         <definition value="**Definition:** Set of codes indicating the manner in which payors participate in a policy or program.&lt;/"></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22223"></valueCode>
+         </property>
+         <concept>
+            <code value="CLMADJ"></code>
+            <display value="claims adjudication"></display>
+            <definition value="**Definition:** Manages all operations required to adjudicate fee for service claims or managed care encounter reports."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22226"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="ENROLL"></code>
+            <display value="enrollment broker"></display>
+            <definition value="**Definition:** Managing the enrollment of covered parties."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22229"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="FFSMGT"></code>
+            <display value="ffs management"></display>
+            <definition value="**Definition:** Managing all operations required to administer a fee for service or indemnity health plan including enrolling covered parties and providing customer service, provider contracting, claims payment, care management and utilization review."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22228"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="MCMGT"></code>
+            <display value="managed care management"></display>
+            <definition value="**Definition:** Managing all operations required to administer a managed care plan including enrolling covered parties and providing customer service,, provider contracting, claims payment, care management and utilization review."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22227"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="PROVMGT"></code>
+            <display value="provider management"></display>
+            <definition value="**Definition:** Managing provider contracting, provider services, credentialing, profiling, performance measures, and ensuring network adequacy."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22230"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="UMGT"></code>
+            <display value="utilization management"></display>
+            <definition value="**Definition:** Managing utilization of services by ensuring that providers adhere to, e.g., payeraTMs clinical protocols for medical appropriateness and standards of medical necessity. May include management of authorizations for services and referrals."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22231"></valueCode>
+            </property>
+         </concept>
+      </concept>
+      <concept>
+         <code value="_SponsorParticipationFunction"></code>
+         <display value="SponsorParticipationFunction"></display>
+         <definition value="**Definition:** Set of codes indicating the manner in which sponsors participate in a policy or program. NOTE: use only when the Sponsor is not further specified with a SponsorRoleType as being either a fully insured sponsor or a self insured sponsor."></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22224"></valueCode>
+         </property>
+         <concept>
+            <code value="FULINRD"></code>
+            <display value="fully insured"></display>
+            <definition value="**Definition:** Responsibility taken by a sponsor to contract with one or more underwriters for the assumption of full responsibility for the risk and administration of a policy or program."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22232"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="SELFINRD"></code>
+            <display value="self insured"></display>
+            <definition value="**Definition:** Responsibility taken by a sponsor to organize the underwriting of risk and administration of a policy or program."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22233"></valueCode>
+            </property>
+         </concept>
+      </concept>
+      <concept>
+         <code value="_UnderwriterParticipationFunction"></code>
+         <display value="UnderwriterParticipationFunction"></display>
+         <definition value="**Definition:** Set of codes indicating the manner in which underwriters participate in a policy or program."></definition>
+         <property>
+            <code value="notSelectable"></code>
+            <valueBoolean value="true"></valueBoolean>
+         </property>
+         <property>
+            <code value="status"></code>
+            <valueCode value="active"></valueCode>
+         </property>
+         <property>
+            <code value="internalId"></code>
+            <valueCode value="22225"></valueCode>
+         </property>
+         <concept>
+            <code value="PAYORCNTR"></code>
+            <display value="payor contracting"></display>
+            <definition value="**Definition:** Contracting for the provision and administration of health services to payors while retaining the risk for coverage. Contracting may be for all provision and administration; or for provision of certain types of services; for provision of services by region; and by types of administration, e.g., claims adjudication, enrollment, provider management, and utilization management. Typically done by underwriters for sponsors who need coverage provided to covered parties in multiple regions. The underwriter may act as the payor in some, but not all of the regions in which coverage is provided."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22234"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="REINS"></code>
+            <display value="reinsures"></display>
+            <definition value="**Definition:** Underwriting reinsurance for another underwriter for the policy or program."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22235"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="RETROCES"></code>
+            <display value="retrocessionaires"></display>
+            <definition value="**Definition:** Underwriting reinsurance for another reinsurer."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22236"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="SUBCTRT"></code>
+            <display value="subcontracting risk"></display>
+            <definition value="**Definition:** Delegating risk for a policy or program to one or more subcontracting underwriters, e.g., a major health insurer may delegate risk for provision of coverage under a national health plan to other underwriters by region ."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22237"></valueCode>
+            </property>
+         </concept>
+         <concept>
+            <code value="UNDERWRTNG"></code>
+            <display value="underwriting"></display>
+            <definition value="**Definition:** Provision of underwriting analysis for another underwriter without assumption of risk."></definition>
+            <property>
+               <code value="status"></code>
+               <valueCode value="active"></valueCode>
+            </property>
+            <property>
+               <code value="internalId"></code>
+               <valueCode value="22238"></valueCode>
+            </property>
+         </concept>
+      </concept>
+   </concept>
+   <concept>
+      <code value="ADMPHYS"></code>
+      <display value="admitting physician"></display>
+      <definition value="A physician who admitted a patient to a hospital or other care unit that is the context of this service."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10278"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="ANEST"></code>
+      <display value="anesthesist"></display>
+      <definition value="In a typical anesthesia setting an anesthesiologist or anesthesia resident in charge of the anesthesia and life support, but only a witness to the surgical procedure itself. To clarify responsibilities anesthesia should always be represented as a separate service related to the surgery."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10274"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="ANRS"></code>
+      <display value="anesthesia nurse"></display>
+      <definition value="In a typical anesthesia setting the nurse principally assisting the anesthesiologist during the critical periods."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10275"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="ASSEMBLER"></code>
+      <display value="assembly software"></display>
+      <definition value="A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.
+
+*UsageConstraint:* ASSEMBLER ParticipationFunction should be used with DEV (device) ParticipationType."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="23655"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="ATTPHYS"></code>
+      <display value="attending physician"></display>
+      <definition value="A physician who is primarily responsible for a patient during the hospitalization, which is the context of the service."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10277"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="COMPOSER"></code>
+      <display value="composer software"></display>
+      <definition value="A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.
+
+*UsageConstraint:* COMPOSER ParticipationFunction should be used with DEV (device) ParticipationType.
+
+*Usage Note:* This code will enable implementers to more specifically represent the manner in which a Device participated in and facilitated the generation of a CDA Clinical Document or a CDA Entry by the responsible Author, which is comprised of the Author's newly entered content, and may include the pre-existing content selected by the Author, for the purpose of establishing the provenance and accountability for these acts."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="23722"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="DISPHYS"></code>
+      <display value="discharging physician"></display>
+      <definition value="A physician who discharged a patient from a hospital or other care unit that is the context of this service."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10279"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="FASST"></code>
+      <display value="first assistant surgeon"></display>
+      <definition value="In a typical surgery setting the assistant facing the primary surgeon. The first assistant performs parts of the operation and assists in others (e.g., incision, approach, electrocoutering, ligatures, sutures)."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10269"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="MDWF"></code>
+      <display value="midwife"></display>
+      <definition value="A person (usually female) helping a woman deliver a baby. Responsibilities vary locally, ranging from a mere optional assistant to a full required participant, responsible for (normal) births and pre- and post-natal care for both mother and baby."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10276"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="NASST"></code>
+      <display value="nurse assistant"></display>
+      <definition value="In a typical surgery setting the non-sterile nurse handles material supply from the stock, forwards specimen to pathology, and helps with other non-sterile tasks (e.g., phone calls, etc.)."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10273"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="PCP"></code>
+      <display value="primary care physician"></display>
+      <definition value="The healthcare provider that holds primary responsibility for the overall care of a patient."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10281"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="PRISURG"></code>
+      <display value="primary surgeon"></display>
+      <definition value="In a typical surgery setting the primary performing surgeon."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10268"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="REVIEWER"></code>
+      <display value="reviewer"></display>
+      <definition value="A verifier who is accountable for reviewing and asserting that the verification of an Act complies with jurisdictional or organizational policy.
+
+*UsageConstraint:* UsageConstraint: Specifies the exact function that an actor is authorized to have as a verifier of an Act. Connotes that a specialized verifier asserts compliance for veracity of the review per jurisdictional or organizational policy. E.g., The Provider who takes responsibility for authenticity of a record submitted to a payer.
+
+REVIEW ParticipationFunction should be used with VFR (verifier)"></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="23656"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="RNDPHYS"></code>
+      <display value="rounding physician"></display>
+      <definition value="A physician who made rounds on a patient in a hospital or other care center."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10280"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="SASST"></code>
+      <display value="second assistant surgeon"></display>
+      <definition value="In a typical surgery setting the assistant who primarily holds the hooks."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10270"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="SNRS"></code>
+      <display value="scrub nurse"></display>
+      <definition value="In a typical surgery setting the nurse in charge of the instrumentation."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10271"></valueCode>
+      </property>
+   </concept>
+   <concept>
+      <code value="TASST"></code>
+      <display value="third assistant"></display>
+      <definition value="In a typical surgery setting there is rarely a third assistant (e.g., in some Hip operations the third assistant postures the affected leg)."></definition>
+      <property>
+         <code value="status"></code>
+         <valueCode value="active"></valueCode>
+      </property>
+      <property>
+         <code value="internalId"></code>
+         <valueCode value="10272"></valueCode>
+      </property>
+   </concept>
+</CodeSystem>
